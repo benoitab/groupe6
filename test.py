@@ -2,7 +2,7 @@ from module import balayage, dichotomie, lagrange, newton
 
 
 def main():
-    print(" CALCUL DE RACINES D'UNE ÉQUATION ")
+    print(" CALCUL DE valeurs approchées d'une racine ")
 
     # Initialize variables
     expr, a, b, e = "", 0.0, 0.0, 0.0
@@ -26,7 +26,7 @@ def main():
 
         # CAS 1 : SAISIE DES PARAMÈTRES
         elif choix == "1":
-            print("\n--- SAISIE DES PARAMÈTRES ---")
+            print("\n SAISIE DES PARAMÈTRES ")
             try:
                 expr = input("Entrez la fonction f(x) (ex: x**2 - 2) : ")
                 a = float(input("Début de l'intervalle a : "))
@@ -74,3 +74,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
